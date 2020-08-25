@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+}
+
+body .practical-test-module {
+  padding: 35px 0;
+}
+
+body .practical-test-module .container {
+  padding: 0 15px;
+  max-width: 1110px;
+  margin: auto;
+}
+
+body .practical-test-module .container .content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 997px) {
+  body .practical-test-module .container .content-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+body .practical-test-module .container .content-wrapper .text-part {
+  width: 50%;
+}
+
+@media (max-width: 997px) {
+  body .practical-test-module .container .content-wrapper .text-part {
+    width: 100%;
+    margin: 0 0 40px;
+  }
+}
+
+body .practical-test-module .container .content-wrapper .text-part .text-part-content {
+  max-width: 450px;
+}
+
+@media (max-width: 997px) {
+  body .practical-test-module .container .content-wrapper .text-part .text-part-content {
+    max-width: initial;
+  }
+}
+
+body .practical-test-module .container .content-wrapper .text-part .text-part-content h2 {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 32px;
+  color: #000;
+  margin: 19px 0 30px;
+}
+
+body .practical-test-module .container .content-wrapper .text-part .text-part-content p {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  margin: 0 0 59px;
+}
+
+body .practical-test-module .container .content-wrapper .text-part .text-part-content .additional-text {
+  max-width: 190px;
+  margin: auto;
+}
+
+body .practical-test-module .container .content-wrapper .text-part .text-part-content .additional-text h3 {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #111;
+  text-align: center;
+  margin: 0 0 16px;
+}
+
+body .practical-test-module .container .content-wrapper .text-part .text-part-content .additional-text p {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+  text-align: center;
+  margin: 0;
+}
+
+body .practical-test-module .container .content-wrapper .slider-part {
+  width: 50%;
+}
+
+@media (max-width: 997px) {
+  body .practical-test-module .container .content-wrapper .slider-part {
+    width: 100%;
+  }
+}
+
+body .practical-test-module .container .content-wrapper .slider-part .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
+
+body .practical-test-module .container .content-wrapper .slider-part .swiper-container .swiper-pagination {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+  background-color: #c4c4c4;
+  left: initial;
+  right: 0;
+  bottom: 4px;
+  width: auto;
+  padding: 10px 7px;
+}
+
+body .practical-test-module .container .content-wrapper .slider-part .swiper-container .my-own-pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .practical-test-module .container .content-wrapper .slider-part .swiper-container .my-own-pagination .dot {
+  height: 10px;
+  width: 10px;
+  background-color: #c4c4c4;
+  margin: 0 5px;
+}
+/*# sourceMappingURL=custom.css.map */

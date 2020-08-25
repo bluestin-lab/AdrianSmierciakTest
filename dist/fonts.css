@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Gothic A1";
+    src: url("../media/fonts/gothica1-bold.eot"), /* IE9 Compat Modes */
+    url("../media/fonts/gothica1-bold.woff2") format("woff2"), /* Super Modern Browsers */
+    url("../media/fonts/gothica1-bold.woff") format("woff"), /* Pretty Modern Browsers */
+    url("../media/fonts/gothica1-bold.ttf")  format("truetype"), /* Safari, Android, iOS */
+    url("../media/fonts/gothica1-bold.svg#svgFontName") format("svg"); /* Legacy iOS */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gothic A1";
+    src: url("../media/fonts/gothica1-medium.eot"), /* IE9 Compat Modes */
+    url("../media/fonts/gothica1-medium.woff2") format("woff2"), /* Super Modern Browsers */
+    url("../media/fonts/gothica1-medium.woff") format("woff"), /* Pretty Modern Browsers */
+    url("../media/fonts/gothica1-medium.ttf")  format("truetype"), /* Safari, Android, iOS */
+    url("../media/fonts/gothica1-medium.svg#svgFontName") format("svg"); /* Legacy iOS */
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gothic A1";
+    src: url("../media/fonts/gothica1-regular.eot"), /* IE9 Compat Modes */
+    url("../media/fonts/gothica1-regular.woff2") format("woff2"), /* Super Modern Browsers */
+    url("../media/fonts/gothica1-regular.woff") format("woff"), /* Pretty Modern Browsers */
+    url("../media/fonts/gothica1-regular.ttf")  format("truetype"), /* Safari, Android, iOS */
+    url("../media/fonts/gothica1-regular.svg#svgFontName") format("svg"); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
